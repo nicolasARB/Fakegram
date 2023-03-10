@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import CreatePost from "./components/functional components/Create-Post/CreatePost";
+import Card from "./components/ux-components/Posts/Card";
+// import Login from "./layouts/Login/Login";
+// import Register from "./layouts/Register/Register";
+import MyProfile from "./layouts/My-Profile/MyProfile";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Card /> */}
+      {/* <Login /> */}
+      {/* <Register />  needs a background*/}
+      {/* <MyProfile /> */}
+      <CreatePost />
     </div>
   );
 }
