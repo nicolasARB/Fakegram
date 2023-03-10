@@ -1,7 +1,7 @@
 import CreatePost from "./components/functional components/Create-Post/CreatePost";
 import Card from "./components/ux-components/Posts/Card";
 // import Login from "./layouts/Login/Login";
-// import Register from "./layouts/Register/Register";
+ import Register from "./layouts/Register/Register";
 import MyProfile from "./layouts/My-Profile/MyProfile";
 
 function App() {
@@ -9,9 +9,9 @@ function App() {
     <div className="App">
       {/* <Card /> */}
       {/* <Login /> */}
-      {/* <Register />  needs a background*/}
+       <Register />
       {/* <MyProfile /> */}
-      <CreatePost />
+   {/*   <CreatePost />*/}
     </div>
   );
 }
