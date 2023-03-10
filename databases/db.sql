@@ -1,9 +1,0 @@
---table user
-CREATE TABLE user (
-    id INTEGER PRIMARY KEY AUTO_INCREMENT,
-    username VARCHAR(25) NOT NULL,
-    pass VARCHAR (20) NOT NULL,
-    email VARCHAR(50) NOT NULL,
-    description VARCHAR(150),
-    createAt TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
-);
